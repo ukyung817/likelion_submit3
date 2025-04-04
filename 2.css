@@ -1,0 +1,173 @@
+.center{
+    width: 1280px;
+    height: 100vh;
+    margin: 0 auto;
+}
+header{
+    width: 1280px;
+    height: 100px;
+    display: flex;
+}
+.background{
+    display: flex;
+    height: 880px;
+}
+.right{
+    width: 300px;
+    background-color: pink;
+}
+.h1{
+    width: 200px;
+    background-color: #EAE9EE;
+}
+.h2{
+    width: 1080px;
+    background-color: #C2C3D6;
+}
+.top{
+    width: 980px;
+    height: 440px;
+    display: flex;
+}
+.t_left{
+    width: 250px;
+    height: 440px;
+    background-color: purple;
+}
+.t_right1{
+    width: 730px;
+    height: 220px;
+    background-color: greenyellow;
+}
+.t_right2{
+    width: 730px;
+    height: 220px;
+    background-color: blue;
+}
+.bottom{
+    width: 980px;
+    height: 440px;
+    background-color: red;
+}
+footer{
+    display: flex;
+}
+.h0{
+    display: none;
+    width: 240px;
+    background-color: #C2C3D6;
+}
+.f1,.f3{
+    width: 200px;
+    height: 100px;
+    background-color: #3A258A;
+}
+.f2{
+    width: 880px;
+    height: 100px;
+    background-color: #6469CD;
+}
+.img2,.img3{
+    display: none;
+}
+
+@media(max-width: 680px){
+    .h1{
+        justify-content: right;
+        height: 100px;
+    }
+   
+    header{
+        height: 100px;
+    }
+    .img1{
+        display: none;
+    }
+    .top{
+        height: 660px;
+    }
+    .t_right1{
+        width: 680px;
+        height: 440px;
+    }
+    .t_right2{
+        width: 680px;
+        height: 220px;
+    }
+    .t_left,.right{
+        display: none;
+    }
+    .img3{
+        display: none;
+    }
+    .img2{
+        display: block;
+    }
+    .bottom{
+        width: 680px;
+        height: 220px;
+    }
+    .f1,.f3{
+        width: 106px;
+        height: 100px;
+    }
+    .f2{
+        width: 468px;
+        height: 100px;
+    }
+
+}
+
+@media(max-width: 450px){
+    .background{
+        display: block;
+    }
+    .top{
+        height: 440px;
+    }
+    .h1{
+        background-color: #C2C3D6;
+        width: 350px;
+    }
+    .h2{
+        background-color: #EAE9EE;
+    }
+    .t_right1,.t_right2{
+        width: 225px;
+        height: 440px;
+    }
+    .right{
+        display: block;
+    }
+    .t_right{
+        display: flex;
+    }
+    .right{
+        display: none;
+    }
+    .t_right01{
+        width: 450px;
+        height: 220px;
+    }
+    .img1,.img2{
+        display: none;
+    }
+    .bottom{
+        width: 450px;
+    }
+    .top{
+        display: block;
+    }
+    .f1{
+        display: none;
+    }
+    .bottom{
+        display: flex;
+    }
+    .bottom1,.bottom2{
+        width: 225px;
+    }
+    .img3{
+        display: block;
+    }
+}
