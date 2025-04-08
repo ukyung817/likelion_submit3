@@ -55,7 +55,9 @@ footer{
     position: absolute;
     width: 235px;
     height: 235px;
-    top: -235px;
+    top: 100%;
+    left: 0;
+    transform: translate(-0% , -100%);
     background-color: #866756;
 }
 .position3{
